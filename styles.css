@@ -1,0 +1,157 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-block: none;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+img{
+  height: auto;
+  width: 300px;
+}
+button{
+  background: lightcoral;
+  color:white;
+  border-style: none;
+  width:10vw;
+}
+h1{
+  letter-spacing: 10px;
+}
+
+.nav-img{
+  max-height: 30px;
+  max-width:30px;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: lightcoral; /* Example color */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 30px;
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  max-width: 100%;
+  font-family: Serif;
+  font-weight: bold;
+}
+
+.nav-links li {
+  padding: 0 15px;
+}
+
+/* Hero Section */
+.hero {
+  
+  padding: 50px;
+  text-align: left;
+  width: 50vw;
+}
+
+.hero h1 {
+  margin-bottom: 15px;
+}
+.burger-img{
+  width:50vw;
+  object-fit: scale-down;
+}
+.hero button {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.main-div{
+  background-image: linear-gradient(to right, lightyellow , lightpink);
+  display: flex;
+flex-direction: row;
+
+}
+/* Photo Grid */
+
+/* Promo Section */
+.promo {
+  background-image: linear-gradient(to right, lightyellow , lightpink);
+  padding: 50px;
+  text-align: center;
+  /*display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+
+}
+
+.img-grid{
+  display: flex;
+  flex-direction: row;
+  width:50vw;
+  padding: 30px;
+}
+
+
+.set{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  height:20vh;
+  width:50vw;
+}
+.set img{
+  height:227px;
+  margin-bottom: 20px;
+  
+}
+
+.promo-text {
+  background: lightcoral; /* Example color */
+  padding: 20px;
+  text-align: left;
+  padding-top: 20px;
+  width:30vw;
+}
+.arrow{
+  height:15px;
+  width:15px;
+}
+.last{
+display:flex;
+flex-direction: row;
+padding-top:10px;
+padding-right:5px;
+}/*
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .promo {
+    flex-direction: column;
+  }
+  .main-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .burger-img{
+  width:80vw;
+  object-fit: scale-down;
+}
+  .hero {
+  
+  padding: 50px;
+  text-align: left;
+  width: 80vw;
+}*/
